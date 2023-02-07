@@ -191,7 +191,14 @@ app.post("/login", function(req, res){
 
 
 
-
+// const connectDB = async ()=> {
+//   try {
+//     const conn = await mongoose.connect(process.env.MONGO_URI);
+//   }catch(err){
+//     console.log(err);
+//     process.exit(1);
+//   }
+// }
 app.listen(process.env.PORT || 4131, function() {
   console.log("Server started on port 4131 .");
 });
