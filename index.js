@@ -7,6 +7,7 @@
 //4 . salting and hashing : bcrypt , salting round
 //5 . cookies and session : passport , passport-local , passport-local-mongoose ,express-session
 //6 . OAuth 2.0 : passport-google-auth20 , mongoose-findorcreate , googleId
+//7 . Commit
 
 require('dotenv').config();
 
